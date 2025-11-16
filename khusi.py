@@ -1,19 +1,18 @@
 Info = {
-    'name' : 'Tridev Sharma',
+    'name' : 'Nisha kumari',
     'Age' : 17,
     'Marks' : [20,30,20,19,30],
     'percent' : 98.9,
     'pass' : True
 }
 
-Info['name']= 'Tridev'
-Info['Gender'] = 'Male'
+Info['name']= 'Nisha'
+Info['Gender'] = 'female'
 print(Info)
 print(
 Info['name'],Info['Age'])
-
 Student = {
-    'name' :' Tridev Sharma',
+    'name' :' Nisha kumari',
     "subject" :{
     'Geo' :  30,
     'Eco' : 20,
@@ -27,7 +26,7 @@ print(Info.keys())
 print(Info.values())
 print(Info.items())
 print(Info.get('name'))
-Info.update({"Gender" : "MAle"})
+Info.update({"Gender" : "female"})
 
 print(Info)
  
